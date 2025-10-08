@@ -1,0 +1,78 @@
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(135deg, lightseagreen, green);
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* centra verticalmente */
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: gold;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.3); /* sombra suave */
+}
+
+h2 {
+    margin-top: 40px;
+    color: wheat;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
+p {
+    font-size: 1.2em;
+    max-width: 550px;
+    line-height: 1.6;
+    color: white;
+    margin-bottom: 20px;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;           /* hace la imagen circular */
+    margin: 20px 0;
+    border: 3px solid gold;       /* borde dorado */
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.3);
+}
+
+a {
+    display: inline-block;
+    margin: 10px 0;
+    padding: 10px 20px;
+    background-color: gold;
+    color: green;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 8px;
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+}
+ 
+a:hover {
+    background-color: wheat;
+    color: darkgreen;
+    transform: translateY(-2px); /* pequeño movimiento al pasar el mouse */
+}
+
+/* Mejora visual para celulares */
+@media (max-width: 600px) {
+    p, h2 {
+        font-size: 1em;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    a {
+        padding: 8px 15px;
+    }
+}

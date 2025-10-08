@@ -1,0 +1,69 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: skyblue;
+    margin: 40px;
+    color: black;
+    text-align: center;
+}
+
+h1 {
+    color: darkblue;
+    margin-bottom: 30px;
+}
+
+.tarjeta {
+    border: 1px solid black;                        /* borde sutil */
+    padding: 15px;                                 /* espacio interno */
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);       /* sombra ligera */
+    border-radius: 8px;                            /* esquinas redondeadas */
+    width: 250px;                                  /* ancho fijo */
+    display: inline-block;                         /* para que estén en fila */
+    margin: 15px;                                  /* espacio entre tarjetas */
+    background-color: whitesmoke;                        /* fondo blanco */
+    vertical-align: top;                           /* alineación superior */
+}
+
+
+.tarjeta img {
+    width: 100%;             /* se adapta al ancho de la tarjeta */
+    border-radius: 8px;      /* esquinas redondeadas en la imagen */
+}
+
+.tarjeta h3 {
+    color: darkcyan;          /* verde azulado */
+    margin-top: 10px;
+}
+
+.tarjeta p {
+    font-size: 14px;
+    color: #555;
+    margin: 10px 0 15px 0;
+}
+
+.tarjeta a {
+    text-decoration: none;           /* sin subrayado */
+    background-color: blue;       /* azul */
+    color: white;                     /* texto blanco */
+    padding: 8px 12px;               /* espacio interno tipo botón */
+    border-radius: 5px;              /* bordes suaves */
+    display: inline-block;           /* para comportarse como botón */
+    transition: background-color 0.3s;
+}
+
+.tarjeta a:hover {
+    background-color: red;       /* cambia a rojo al pasar el mouse */
+}
+
+a {
+    display: inline-block;
+    margin: 10px 0;
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 8px;
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+}
