@@ -9,7 +9,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center; /* centra verticalmente */
+    justify-content: center; 
     padding: 20px;
 }
 
@@ -17,7 +17,7 @@ h1 {
     font-size: 2.5em;
     margin-bottom: 10px;
     color: gold;
-    text-shadow: 2px 2px 5px rgba(0,0,0,0.3); /* sombra suave */
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.3); 
 }
 
 h2 {
